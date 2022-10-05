@@ -106,7 +106,7 @@ void CADMStoKCIMDlg::OnTimer(UINT_PTR nIDEvent)
 	{
 		case MY_TIMER:
 		{
-			//2.0
+			//2.1.0 업데이트
 			KillTimer(MY_TIMER);
 			ADMStoKCIM_Config();	 //ADMS DB연결
 			//강제로 종료?
