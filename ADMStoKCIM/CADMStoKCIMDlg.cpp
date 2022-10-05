@@ -33,6 +33,7 @@ CADMStoKCIMDlg::CADMStoKCIMDlg(CWnd* pParent /*=nullptr*/)
 		m_nMstCD[i][1] = 0;
 		m_nMstCD[i][2] = 0; ///sdsd
 	}
+	//ttsesdsdsdsdsd
 }
 
 CADMStoKCIMDlg::~CADMStoKCIMDlg()
