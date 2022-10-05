@@ -26,7 +26,7 @@ CADMStoKCIMDlg::CADMStoKCIMDlg(CWnd* pParent /*=nullptr*/)
 	m_szDataName_Data.Format(_T(""));
 	m_szCSV_Route.Format(_T(""));
 	m_szADMS_Code.Format(_T(""));
-	m_nSuccess = 0;     // 0 이면 
+	m_nSuccess = 0;     // 099999sdsdsdsdsdsdsd
 	for (int i = 0; i < 500; i++)
 	{
 		m_nMstCD[i][0] = 0;
