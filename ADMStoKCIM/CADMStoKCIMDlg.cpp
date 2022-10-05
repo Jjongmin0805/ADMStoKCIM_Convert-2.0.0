@@ -26,12 +26,12 @@ CADMStoKCIMDlg::CADMStoKCIMDlg(CWnd* pParent /*=nullptr*/)
 	m_szDataName_Data.Format(_T(""));
 	m_szCSV_Route.Format(_T(""));
 	m_szADMS_Code.Format(_T(""));
-	m_nSuccess = 0;     // 099999sdsdsdsdsdsdsd
+	m_nSuccess = 0;     // 
 	for (int i = 0; i < 500; i++)
 	{
 		m_nMstCD[i][0] = 0;
 		m_nMstCD[i][1] = 0;
-		m_nMstCD[i][2] = 0; ///sdsd
+		m_nMstCD[i][2] = 0; 
 	}
 	//ttsesdsdsdsdsd
 }
@@ -54,6 +54,7 @@ END_MESSAGE_MAP()
 
 BOOL CADMStoKCIMDlg::OnInitDialog()
 {
+	//20221005 업데이트
 	CDialogEx::OnInitDialog();
 
 	int nProgress;
